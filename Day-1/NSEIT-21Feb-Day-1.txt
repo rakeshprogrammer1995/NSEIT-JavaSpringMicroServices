@@ -236,14 +236,109 @@ for loop:
 	 }
 
 2. for(varibale:collection){
-		// statements;
+		// statements;        enchansed for loop
    }
 
 3. forEach(function);  // collections concept
 counter controller loop
 
 
-    
+Arrays
+-------
+An array is a collection of homogenous elements.
+
+
+Object Oriented Programming  (OOPS)
+-----------------------------------
+OOP is making the programming element as if it behaves like
+a real time entity.
+
+1. Class , Object
+
+2. Encapsulation
+
+3. Data Hiding 
+
+4. Inheritance
+
+5. Polymorphism
+
+class : A class is a collection of objects having the similar 
+properties
+
+Object: An instance of the class is called object.
+
+A class represents genaralized and an object represents specific
+A class is a logical entity and object is a realtime entity.
+classes cannot exists on its own, but its existence is proved
+by its object
+
+ y = mx+c; 
+
+  class <classname>
+	{
+		  // list of variables;
+       // list of methods;
+   }
+   eg>
+	 class Student{
+			int hallTicketNumber;
+       String name;
+       String branch;
+       String college;
+       public void getStudentDetails(){
+				// code 
+			}
+			public void displayStudentDetails(){
+				// code
+			}
+    }
+    className objName = new ClassName();
+    Student student1 = new Student();
+    Student student2 = new Student();
+
+  Encapsulation: It is the process of combining data and methods
+  together inside the class.
+  
+  It provides the security for the data.
+
+  Abstraction: selective hiding and selective display of the
+             detaials of the methods is called abstraction.
+
+
+  Polymorphism: The ability of an entity to exists in more than
+  one form is called polymorphism
+  
+   1. Runtime polymorphism : The form to be exhibited is known
+       only at the execution time
+
+   2. Compile time polymorphism : The form to be exhibited is known
+      at the compile time itself 
+
+  Inheritance:  The process of acquiring the properties of one 
+  element to another element.
+  code reusability
+  
+  three things will happen when an object is created.
+
+  1. The .class file is loaded into memory
+  2. Instantiation - Allocating the memory to the instance variables
+  3. Initialization - Assiging the default values to the inst. var.
+
+
+
+
+
+
+
+ 
+  
+
+
+  
+
+
+
    
 
 
