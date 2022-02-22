@@ -19,6 +19,7 @@ class B extends A{
 	int b;
 	int c;
 	B(int a, int b, int c){
+		//super();
 		this.a=a;
 		this.b=b;
 		this.c=c;
